@@ -14,20 +14,15 @@ export default function Home() {
         <h1 className={styles.title}>Hundred Knocks</h1>
 
         <div className={styles.grid}>
-          <Link href='/knocks/first'>first</Link>
+          <Link href='/knocks/first'>
+            <button className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded'>
+              First
+            </button>
+          </Link>
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Powered by{' '}
-          <img src='/vercel.svg' alt='Vercel Logo' className={styles.logo} />
-        </a>
-      </footer>
+      <footer className={styles.footer}>Knocking ...</footer>
     </div>
   )
 }
