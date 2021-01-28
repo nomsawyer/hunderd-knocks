@@ -14,9 +14,7 @@ export default function Home() {
         <h1 className={styles.title}>Hundred Knocks</h1>
 
         <div className={styles.grid}>
-          <div className={styles.card}>
-            <Link href='/knocks/first'>first</Link>
-          </div>
+          <Link href='/knocks/first'>first</Link>
         </div>
       </main>
 
