@@ -1,2 +1,2 @@
-# hunderd_knocks
+# hunderd-knocks
 next.js practice
